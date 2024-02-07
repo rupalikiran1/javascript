@@ -92,7 +92,8 @@ console.log(5 == 4 && 8 == 9)
 // !
 
 console.log(!(8 == 8))
-console.log(!(9  == 9))
+console.log(!(9 === 9))
+
 
 
 
