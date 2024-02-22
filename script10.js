@@ -91,4 +91,13 @@ let e7 = numbersA.reduce(function(acc,el,index,arr){
 },5)
 console.log(e7)
 
+// forEach()
+
+let cities = ["pune","mumbai","banglore","kolkata","chennai"]
+let q5 = cities.forEach(function(el,index,arr){
+     console.log("welcome" + el)
+})
+console.log(q5)
+
+
 
