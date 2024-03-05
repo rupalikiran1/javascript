@@ -63,3 +63,4 @@ let a1 = students.reduce(function(acc,el){
 
 },0)
 console.log(a1/students.length)
+
