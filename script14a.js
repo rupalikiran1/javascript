@@ -102,3 +102,4 @@ for(let i = 0 ; i < city5.length ; i++){
     // e  +  nup=====>enup
 }
 console.log(revst)
+
