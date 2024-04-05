@@ -62,3 +62,25 @@ displayName4.apply(shivani,["bye","hi","bye","good bye","tc"])
 // a()
 // chinmay.a()
 //vijeet.a()
+
+//function declaration
+function displayColor(cl){
+    return cl + "G"
+}
+let r = displayColor("green")
+console.log(r)
+
+let displayColor3 = function(cl){
+    return cl + "G"
+}
+let r2 = displayColor3("green")
+console.log(r2)
+//let displayColor4 = (cl)=>{
+// return cl + "G" 
+//}
+// let r3 = displayColor4("green")
+// console.log(r3)
+
+let displayColor4 = (cl)=>cl + "G"
+let r3 = displayColor4("green")
+console.log(r3)
