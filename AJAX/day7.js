@@ -1,4 +1,4 @@
-let addusers = document.querySelector('button')
+let addusers =document.querySelector('button')
 
 addusers.addEventListener('click', function () {
     fetch('https://reqres.in/api/users?page=2')
@@ -13,7 +13,7 @@ addusers.addEventListener('click', function () {
                 document.write('<p>${el.email}</p>')
                 document.write('<h1>${el.id}<h1>')
                 document.write('<img src=${el.avatar}>')
-            });
+            })
 
 
 })
